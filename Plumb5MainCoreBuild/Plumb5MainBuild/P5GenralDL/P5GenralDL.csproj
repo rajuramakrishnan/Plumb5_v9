@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DBInteraction\DBInteraction.csproj" />
+    <ProjectReference Include="..\IP5GenralDL\IP5GenralDL.csproj" />
+    <ProjectReference Include="..\P5GenralML\P5GenralML.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PushSharp.Apple">
+      <HintPath>..\OuterReference\PushSharp.Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Core">
+      <HintPath>..\OuterReference\PushSharp.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
