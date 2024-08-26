@@ -1,0 +1,436 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\Plumb5GenralFunction\\Plumb5GenralFunction.csproj": {}
+  },
+  "projects": {
+    "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj",
+        "projectName": "DBInteraction",
+        "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj",
+        "packagesPath": "C:\\Users\\Plumb5\\.nuget\\packages\\",
+        "outputPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Plumb5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {
+                "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\IP5GenralDL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\IP5GenralDL.csproj",
+        "projectName": "IP5GenralDL",
+        "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\IP5GenralDL.csproj",
+        "packagesPath": "C:\\Users\\Plumb5\\.nuget\\packages\\",
+        "outputPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Plumb5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj": {
+                "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj"
+              },
+              "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {
+                "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj",
+        "projectName": "P5GenralDL",
+        "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj",
+        "packagesPath": "C:\\Users\\Plumb5\\.nuget\\packages\\",
+        "outputPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Plumb5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj": {
+                "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj"
+              },
+              "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\IP5GenralDL.csproj": {
+                "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\IP5GenralDL.csproj"
+              },
+              "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {
+                "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj",
+        "projectName": "P5GenralML",
+        "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj",
+        "packagesPath": "C:\\Users\\Plumb5\\.nuget\\packages\\",
+        "outputPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Plumb5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\Plumb5GenralFunction\\Plumb5GenralFunction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\Plumb5GenralFunction\\Plumb5GenralFunction.csproj",
+        "projectName": "Plumb5GenralFunction",
+        "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\Plumb5GenralFunction\\Plumb5GenralFunction.csproj",
+        "packagesPath": "C:\\Users\\Plumb5\\.nuget\\packages\\",
+        "outputPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\Plumb5GenralFunction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Plumb5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj": {
+                "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj"
+              },
+              "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj": {
+                "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj"
+              },
+              "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {
+                "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AWSSDK.CloudWatch": {
+              "target": "Package",
+              "version": "[3.7.401.5, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.402.1, )"
+            },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "ExcelDataReader.DataSet": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Ionic.Zip": {
+              "target": "Package",
+              "version": "[1.9.1.8, )"
+            },
+            "Microsoft.AspNet.WebApi": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

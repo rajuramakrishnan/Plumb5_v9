@@ -45,3 +45,15 @@ D:\Plumb5_Git\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\P5
 D:\Plumb5_Git\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\refint\P5GenralML.dll
 D:\Plumb5_Git\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\P5GenralML.pdb
 D:\Plumb5_Git\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\ref\P5GenralML.dll
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\bin\Debug\net8.0\P5GenralML.deps.json
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\bin\Debug\net8.0\P5GenralML.dll
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\bin\Debug\net8.0\P5GenralML.pdb
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\P5GenralML.GeneratedMSBuildEditorConfig.editorconfig
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\P5GenralML.AssemblyInfoInputs.cache
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\P5GenralML.AssemblyInfo.cs
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\P5GenralML.csproj.CoreCompileInputs.cache
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\P5GenralML.sourcelink.json
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\P5GenralML.dll
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\refint\P5GenralML.dll
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\P5GenralML.pdb
+D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\P5GenralML\obj\Debug\net8.0\ref\P5GenralML.dll
