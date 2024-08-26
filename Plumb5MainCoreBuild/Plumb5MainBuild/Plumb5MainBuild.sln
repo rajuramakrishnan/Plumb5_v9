@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBInteraction", "DBInteraction\DBInteraction.csproj", "{A37B5368-95A4-44CC-AB1E-D7914C1AC960}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IP5GenralDL", "IP5GenralDL\IP5GenralDL.csproj", "{A34D6EEE-6821-4E91-A76B-632171AE0F05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A37B5368-95A4-44CC-AB1E-D7914C1AC960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A37B5368-95A4-44CC-AB1E-D7914C1AC960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A37B5368-95A4-44CC-AB1E-D7914C1AC960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34D6EEE-6821-4E91-A76B-632171AE0F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34D6EEE-6821-4E91-A76B-632171AE0F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34D6EEE-6821-4E91-A76B-632171AE0F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34D6EEE-6821-4E91-A76B-632171AE0F05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

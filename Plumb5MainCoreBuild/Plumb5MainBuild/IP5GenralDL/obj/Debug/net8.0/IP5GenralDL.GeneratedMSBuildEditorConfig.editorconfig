@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IP5GenralDL
-build_property.ProjectDir = D:\Plumb5_Git1\Plumb5MainCoreBuild\Plumb5MainBuild\IP5GenralDL\
+build_property.ProjectDir = D:\Plumb5_v9\Plumb5MainCoreBuild\Plumb5MainBuild\IP5GenralDL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

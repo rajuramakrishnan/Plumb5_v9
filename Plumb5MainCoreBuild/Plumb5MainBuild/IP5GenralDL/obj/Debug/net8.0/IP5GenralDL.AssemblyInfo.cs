@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IP5GenralDL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41817c939c21c2f8c6b2cf0a27d157057f195f81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+856a85ca03bc03a6c3d0b4f8208515635027adc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("IP5GenralDL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IP5GenralDL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
