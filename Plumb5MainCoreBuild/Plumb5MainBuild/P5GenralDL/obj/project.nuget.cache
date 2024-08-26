@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lQ0Day8tuN4=",
-  "success": true,
-  "projectFilePath": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj",
+  "dgSpecHash": "z9q6tEV+4i4=",
+  "success": false,
+  "projectFilePath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Plumb5\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Plumb5\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -54,5 +54,15 @@
     "C:\\Users\\Plumb5\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\Plumb5\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

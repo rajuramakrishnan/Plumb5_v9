@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P5GenralDL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41817c939c21c2f8c6b2cf0a27d157057f195f81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b600825617164ba67a7199ab6279fb77a985c64")]
 [assembly: System.Reflection.AssemblyProductAttribute("P5GenralDL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P5GenralDL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

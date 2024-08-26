@@ -890,14 +890,14 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": "1.0.0",
           "Dapper": "2.1.35",
           "Microsoft.Data.SqlClient": "5.2.0",
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
           "Newtonsoft.Json": "13.0.3",
-          "Npgsql": "8.0.3",
-          "P5GenralML": "1.0.0"
+          "Npgsql": "8.0.3"
         },
         "compile": {
           "bin/placeholder/DBInteraction.dll": {}
@@ -910,24 +910,14 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DBInteraction": "1.0.0",
-          "P5GenralML": "1.0.0"
+          "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": "1.0.0",
+          "DBInteraction": "1.0.0"
         },
         "compile": {
           "bin/placeholder/IP5GenralDL.dll": {}
         },
         "runtime": {
           "bin/placeholder/IP5GenralDL.dll": {}
-        }
-      },
-      "P5GenralML/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/P5GenralML.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/P5GenralML.dll": {}
         }
       }
     }
@@ -2661,18 +2651,13 @@
       "type": "project",
       "path": "../IP5GenralDL/IP5GenralDL.csproj",
       "msbuildProject": "../IP5GenralDL/IP5GenralDL.csproj"
-    },
-    "P5GenralML/1.0.0": {
-      "type": "project",
-      "path": "../P5GenralML/P5GenralML.csproj",
-      "msbuildProject": "../P5GenralML/P5GenralML.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj",
       "DBInteraction >= 1.0.0",
-      "IP5GenralDL >= 1.0.0",
-      "P5GenralML >= 1.0.0"
+      "IP5GenralDL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2681,11 +2666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj",
+      "projectUniqueName": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj",
       "projectName": "P5GenralDL",
-      "projectPath": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj",
+      "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\P5GenralDL.csproj",
       "packagesPath": "C:\\Users\\Plumb5\\.nuget\\packages\\",
-      "outputPath": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\obj\\",
+      "outputPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralDL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Plumb5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2703,14 +2688,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj": {
-              "projectPath": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj"
+            "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj": {
+              "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\DBInteraction\\DBInteraction.csproj"
             },
-            "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\IP5GenralDL.csproj": {
-              "projectPath": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\IP5GenralDL.csproj"
+            "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\IP5GenralDL.csproj": {
+              "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\IP5GenralDL\\IP5GenralDL.csproj"
             },
-            "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {
-              "projectPath": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj"
+            "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {
+              "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj"
             }
           }
         }
@@ -2748,5 +2733,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
