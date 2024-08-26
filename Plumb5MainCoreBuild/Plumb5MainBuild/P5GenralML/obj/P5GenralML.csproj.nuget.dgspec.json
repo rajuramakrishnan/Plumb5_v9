@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {}
+    "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {}
   },
   "projects": {
-    "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {
+    "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj",
+        "projectUniqueName": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj",
         "projectName": "P5GenralML",
-        "projectPath": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj",
+        "projectPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\P5GenralML.csproj",
         "packagesPath": "C:\\Users\\Plumb5\\.nuget\\packages\\",
-        "outputPath": "D:\\Plumb5_Git1\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\obj\\",
+        "outputPath": "D:\\Plumb5_v9\\Plumb5MainCoreBuild\\Plumb5MainBuild\\P5GenralML\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Plumb5\\AppData\\Roaming\\NuGet\\NuGet.Config",
